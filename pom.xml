@@ -34,8 +34,8 @@
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
-          <source>1.8</source>
-          <target>1.8</target>
+          <source>1.6</source>
+          <target>1.6</target>
         </configuration>
       </plugin>
 
@@ -179,7 +179,7 @@
       <dependency>
         <groupId>junit</groupId>
         <artifactId>junit-dep</artifactId>
-        <version>4.12</version>
+        <version>4.10</version>
         <scope>test</scope>
       </dependency>
 
@@ -206,12 +206,12 @@
     </dependencies>
   </dependencyManagement>
 
-  <!-- <scm>
+  <scm>
     <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
     <developerConnection>scm:git:git@github.com:jleetutorial/maven-project.git</developerConnection>
     <tag>HEAD</tag>
     <url>http://github.com/jleetutorial/maven-project</url>
-  </scm> -->
+  </scm>
 
   <prerequisites>
     <maven>3.0.3</maven>
